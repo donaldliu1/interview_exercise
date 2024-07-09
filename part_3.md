@@ -1,5 +1,6 @@
 ## 1. How would you go about implementing the solution
 Currently tags are implemented but only to conversation
+
 Reuse the way tags are implemented in conversation but to message
 Change message schema to include a tag field
 When POST message allow user to add tags 
