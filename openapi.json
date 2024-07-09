@@ -937,10 +937,6 @@
                 "type": "object",
                 "properties": {}
             },
-            "Tags": {
-                "type": "object",
-                "properties": {}
-            },
             "ChatMessage": {
                 "type": "object",
                 "properties": {
@@ -987,7 +983,7 @@
                     "tags": {
                         "type": "array",
                         "items": {
-                            "$ref": "#/components/schemas/Tags"
+                            "$ref": "#/components/schemas/Tag"
                         }
                     }
                 },
