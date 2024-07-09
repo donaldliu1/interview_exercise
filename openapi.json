@@ -937,6 +937,10 @@
                 "type": "object",
                 "properties": {}
             },
+            "Tags": {
+                "type": "object",
+                "properties": {}
+            },
             "ChatMessage": {
                 "type": "object",
                 "properties": {
@@ -979,6 +983,12 @@
                     },
                     "isSenderBlocked": {
                         "type": "boolean"
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Tags"
+                        }
                     }
                 },
                 "required": [
