@@ -129,6 +129,7 @@ export class MessageResolver {
     @Args('likeMessageDto') likeMessageDto: LikeMessageDto,
     @AuthenticatedUser() authenticatedUser: IAuthenticatedUser,
   ): Promise<ChatMessage> {
+    // needed to return
     return await this.messageLogic.like(likeMessageDto, authenticatedUser);
   }
 
